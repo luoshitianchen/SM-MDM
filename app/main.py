@@ -13,7 +13,7 @@ from pydantic import BaseModel, Field
 from app import base
 
 SERVICE = "sm-mdm"
-VERSION = "2.0.0"
+VERSION = "3.0.0"
 NAME = "SM MDM"
 DESCRIPTION = "主数据管理：数据域、主数据、黄金记录与去重合并"
 PORT = 8450
