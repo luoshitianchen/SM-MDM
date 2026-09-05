@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: sm-mdm
+  namespace: sm
+  labels:
+    app: sm-mdm
+    platform: sm-suite
+spec:
+  type: ClusterIP
+  selector:
+    app: sm-mdm
+  ports:
+  - name: http
+    port: 8450
+    targetPort: http
+    protocol: TCP
