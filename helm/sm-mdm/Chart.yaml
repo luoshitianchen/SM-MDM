@@ -1,0 +1,12 @@
+apiVersion: v2
+name: sm-mdm
+description: SM-* 微服务 Helm Chart - 主数据管理（MDM）服务
+type: application
+version: 1.0.0
+appVersion: "2.1.0"
+keywords:
+  - sm-microservices
+  - storage-governance
+  - enterprise
+maintainers:
+  - name: sm-platform-team
